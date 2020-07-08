@@ -10,10 +10,16 @@ public class Main {
         System.out.println("======= Bubble Sort =======");
         System.out.println(Arrays.toString(numbers));
 
-
         SelectionSort selectionSort = new SelectionSort();
         System.out.println("======= Selection Sort =======");
+        numbers = new int[]{7, 3, 1, 4, 6, 2, 3};
         selectionSort.applySelectionSortAlgorithm(numbers);
+        System.out.println(Arrays.toString(numbers));
+
+        InsertionSort insertionSort = new InsertionSort();
+        System.out.println("======= Insertion Sort =======");
+        numbers = new int[]{7, 3, 1, 4, 6, 2, 3};
+        insertionSort.applyInsertionSortAlgorithm(numbers);
         System.out.println(Arrays.toString(numbers));
     }
 }
