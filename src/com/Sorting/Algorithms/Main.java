@@ -21,5 +21,11 @@ public class Main {
         numbers = new int[]{7, 3, 1, 4, 6, 2, 3};
         insertionSort.applyInsertionSortAlgorithm(numbers);
         System.out.println(Arrays.toString(numbers));
+
+        MergeSort mergeSort = new MergeSort();
+        System.out.println("======= Merge Sort =======");
+        numbers = new int[]{7, 3, 1, 4, 6, 2, 3};
+        mergeSort.applyMergeSort(numbers);
+        System.out.println(Arrays.toString(numbers));
     }
 }
