@@ -27,5 +27,11 @@ public class Main {
         numbers = new int[]{7, 3, 1, 4, 6, 2, 3};
         mergeSort.applyMergeSort(numbers);
         System.out.println(Arrays.toString(numbers));
+
+        QuickSort quickSort = new QuickSort();
+        System.out.println("======== Quick Sort =======");
+        numbers = new int[]{15,6,3,1,22,10,13};
+        quickSort.applyQuickSortAlgorithm(numbers);
+        System.out.println(Arrays.toString(numbers));
     }
 }
